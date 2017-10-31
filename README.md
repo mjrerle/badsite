@@ -6,14 +6,13 @@
 This is an example of a vulnerable site ripe with php/sql injection and several questionable design choices. 
 
 # Challenges
-Don't edit the source files (beside the config)
-Yes you do have all of the files at your disposal, the challenge is to __fix__ them
-Show tables
-Get admin
-Find/document all of the vulnerabilities
+* Don't edit the source files (beside the config)
+* Yes you do have all of the files at your disposal, the challenge is to __fix__ them
+* Show tables
+* Get admin
+* Find/document all of the vulnerabilities. Make the pull request.
 
 # Configuration
-
 **change lib/config.php to match your local environment**
 
 ## Windows
@@ -47,7 +46,7 @@ Find/document all of the vulnerabilities
 * `git clone https://github.com/mjrerle/badsite`
 * change public $url_public=''; to `public $url_public = "~<username>"`
 * run perms.sh (gives appropriate permissions)
-* open web browser goto "http://www.cs.colostate.edu/~<username>"
+* open web browser goto http://www.cs.colostate.edu/~username
 
 ## Linux
 ### Option 1 - Using XAMPP
@@ -65,7 +64,7 @@ Find/document all of the vulnerabilities
 * `git clone https://github.com/mjrerle/badsite`
 * change public $url_public=''; to `public $url_public = "~<username>"`
 * run perms.sh (gives appropriate permissions)
-* open web browser goto "http://www.cs.colostate.edu/~<username>"
+* open web browser goto http://www.cs.colostate.edu/~username
 
 ## Mac
 ### Option 1 - Using MAMP and git
@@ -83,4 +82,4 @@ Find/document all of the vulnerabilities
 * `git clone https://github.com/mjrerle/badsite`
 * change public $url_public=''; to `public $url_public = "~<username>"`
 * run perms.sh (gives appropriate permissions)
-* open web browser goto "http://www.cs.colostate.edu/~<username>"
+* open web browser goto http://www.cs.colostate.edu/~username
